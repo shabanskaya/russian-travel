@@ -1,14 +1,14 @@
 .places {
-	margin: 0 calc(25%/2) 0;
+	margin: 0 148px 0;
 	padding: 0 0 92px;
-	width: 75%;
-	list-style: none;
+	width: calc(100% - 296px);
+	
 }
 
 @media screen and (max-width: 1279px) {
 	.places {
-		margin-left: calc(10%/2);
-		width: 90%;
+		margin: 0 48px 0;
+		width: calc(100% - 96px);
 	}
 }
 

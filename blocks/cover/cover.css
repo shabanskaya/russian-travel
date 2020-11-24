@@ -2,11 +2,7 @@
 	width: calc(100% - 96px);
 	margin: 0 48px 92px;
 	padding: 0;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	text-decoration: none;
-	color: #ffffff;
+
 }
 
 @media screen and (max-width: 1024px) {
