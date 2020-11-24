@@ -1,5 +1,5 @@
 .cover {
-	width: calc(100%-96px);
+	width: calc(100% - 96px);
 	margin: 0 48px 92px;
 	padding: 0;
 	display: grid;
