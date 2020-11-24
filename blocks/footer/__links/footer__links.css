@@ -1,0 +1,19 @@
+.footer__links {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(max-content, min-content)) 1fr;
+	grid-template-rows: minmax(maxcontent, mincontent);
+	gap: 18px;
+	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.footer__links {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(5, 1fr);
+		gap: 32px;
+		margin-bottom: 48px;
+	}
+}
