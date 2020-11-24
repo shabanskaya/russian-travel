@@ -1,0 +1,9 @@
+.place__web {
+	align-self: end;
+}
+
+@media screen and (max-width: 600px) {
+	.place__web {
+		padding-left: 16px;
+	}
+}

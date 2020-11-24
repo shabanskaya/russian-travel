@@ -1,0 +1,14 @@
+.place__text {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+@media screen and (max-width: 600px) {
+	.place__text{
+		padding: 0 16px;
+		font-size: 16px;
+	}
+}
