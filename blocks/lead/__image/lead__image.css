@@ -1,15 +1,15 @@
 .lead__image {
 	width: calc(984 / 1280 * 100%);
 	background-image: url(../../../images/lead-polka.jpg);
-	padding-bottom: calc(5/8*75%);
-	background-size: contain;
+	padding-bottom: calc(0.625 * 984 / 1280	* 100%);
+	background-size: cover;
 	margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
 	.lead__image {
 		width: calc(928 / 1024 * 100%);
-		padding-bottom: calc(5/8*90%);
+		padding-bottom: calc(0.625 * 928 / 1024	* 100%);
 
 	}
 }
@@ -17,6 +17,6 @@
 @media screen and (max-width: 768px) {
 	.lead__image {
 		width: 100%;
-		padding-bottom: calc(5/8*100%);
+		padding-bottom: calc(0.625*100%);
 	}
 }
